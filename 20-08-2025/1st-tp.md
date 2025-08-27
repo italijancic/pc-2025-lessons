@@ -144,27 +144,3 @@ Ingrese la cantidad que desea comprar: 1
 ```zsh
 No aplica promoción. El precio total es: 100
 ```
-
-### **Problema 8: Determinar si un número es primo**
-
-**Descripción:** Escribe un programa que pida al usuario que ingrese un número entero e imprimar un mensaje indicando si el número ingresado es primo o no:
-
-**Ejemplo de Entrada 1:**
-```zsh
-Ingrese un número entero: 3
-```
-
-**Ejemplo de Salida 1:**
-```zsh
-El número ingresado es primo
-```
-
-**Ejemplo de Entrada 2:**
-```zsh
-Ingrese un número entero: 4
-```
-
-**Ejemplo de Salida 2:**
-```zsh
-El número ingresado no es primo
-```
