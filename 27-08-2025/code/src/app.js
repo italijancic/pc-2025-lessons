@@ -1,7 +1,17 @@
 import { prompt } from './prompt.js'
 
+// 4. **Serie de Fibonacci**
+//    - Crea un programa que solicite al usuario ingresar un número `n` y que imprima los primeros `n` números de
+//    - la serie de Fibonacci utilizando un bucle `while`.
+
+console.log()
+console.log('----------')
+console.log('Problema 4')
+console.log('----------')
+console.log()
+
 // Solicitar al usuario ingresar un número
-let n = parseInt(prompt("Ingrese un número para calcular los primeros n números de la serie de Fibonacci:"))
+let n = parseInt(prompt("Ingrese un número para calcular los primeros n números de la serie de Fibonacci: "))
 
 // Inicializar los primeros dos números de la serie de Fibonacci
 let fib1 = 0
@@ -11,8 +21,11 @@ let fib2 = 1
 let count = 2
 
 // Imprimir los primeros dos números de la serie
-console.log(fib1)
-console.log(fib2)
+if(n > 1)
+  console.log(fib1)
+
+if(n > 2)
+  console.log(fib2)
 
 // Bucle para calcular los siguientes números de Fibonacci
 while (count < n) {
@@ -26,3 +39,4 @@ while (count < n) {
 
   count++ // Incrementar el contador
 }
+

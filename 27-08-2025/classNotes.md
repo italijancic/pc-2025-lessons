@@ -1,4 +1,4 @@
-# 📋 28-08-2024: Class Notes
+# 📋 27-08-2025: Class Notes
 Autor: Ivan Talijancic
 ## Introducción a la Programación
 
