@@ -4,7 +4,7 @@
 
 #### **Problema: Optimización de Energía en Paneles Solares**
 
-Una empresa dedicada a la generación de energía a través de paneles solares necesita analizar la producción energética diaria de **N paneles solares** distribuidos en **M zonas**. La producción de cada panel se mide en **kWh** y se organiza en una **matriz P[N][M]**, donde cada valor representa la producción de un panel en una zona específica.
+Una empresa dedicada a la generación de energía a través de paneles solares necesita analizar la producción energética diaria de **N paneles solares** distribuidos en **M zonas**. La producción de cada panel se mide en **kWh** y se organiza en una **matriz P[N][M]**, donde cada valor representa la producción diaria de un panel en una zona específica.
 
 Además, se debe analizar la **irradiación solar diaria** en cada zona, representada en un vector **I[M]**, que indica la cantidad de energía solar recibida en kWh/m².
 
